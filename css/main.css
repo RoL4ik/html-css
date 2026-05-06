@@ -1,3 +1,10 @@
+h1 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-left: 360px;
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #D2EEBD;
@@ -24,4 +31,41 @@ body {
     background-color: #f9f9f9; /* Легкий фон, чтобы область была заметна */
     border-radius: 18px;   /* Закругление углов (по желанию) */
     padding: auto;           /* Внутренние отступы (можно настроить по вкусу) */
+}
+
+button {
+    padding: 10px 40px;
+    margin: 5px 0;
+    margin-left: 425px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+select {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #ccc;
+    border-radius: 20px;
+    width: 70%;
+    box-sizing: border-box; /* Чтобы padding не увеличивал общую ширину */
+}
+
+input:focus {
+    border-color: #4CAF50; /* Цвет рамки при фокусе */
+    outline: none; /* Убираем стандартное выделение */
 }
