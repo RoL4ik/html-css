@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #D2EEBD;
+    margin: 0;
+    padding: 20px;
+}
+
+.bigus {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.aboutlink:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+#saved_videos {
+     width: 80%;           /* Ширина блока (можно в пикселях, например 600px) */
+    min-height: 300px;    /* Минимальная высота, чтобы он не был "сплюснутым" */
+    margin: 20px 0;       /* Отступы сверху и снизу */
+    border: 2px solid #555; /* Рамка (цвет и толщина) */
+    background-color: #f9f9f9; /* Легкий фон, чтобы область была заметна */
+    border-radius: 18px;   /* Закругление углов (по желанию) */
+    padding: auto;           /* Внутренние отступы (можно настроить по вкусу) */
+}
