@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;900&display=swap');
+
 h1 {
     color: black;
     font-size: 30px;
     margin-bottom: 100px;
-    margin-left: 360px;
+    text-align: center;
+    font-weight: 600;
 }
 
 body {
@@ -10,6 +13,8 @@ body {
     background-color: #D2EEBD;
     margin: 0;
     padding: 20px;
+    text-align: center;
+    font-family: Prompt, sans-serif;
 }
 
 .bigus {
@@ -24,19 +29,20 @@ body {
 }
 
 #saved_videos {
-     width: 80%;           /* Ширина блока (можно в пикселях, например 600px) */
+    width: 80%;           /* Ширина блока (можно в пикселях, например 600px) */
     min-height: 300px;    /* Минимальная высота, чтобы он не был "сплюснутым" */
-    margin: 20px 0;       /* Отступы сверху и снизу */
+    margin: 20px auto;       /* Отступы сверху и снизу */
     border: 2px solid #555; /* Рамка (цвет и толщина) */
     background-color: #f9f9f9; /* Легкий фон, чтобы область была заметна */
     border-radius: 18px;   /* Закругление углов (по желанию) */
-    padding: auto;           /* Внутренние отступы (можно настроить по вкусу) */
+    padding: 10px;           /* Внутренние отступы (можно настроить по вкусу) */
+    text-align: center;          /* Выравнивание текста по центру */
+    
 }
 
 button {
     padding: 10px 40px;
     margin: 5px 0;
-    margin-left: 425px;
     font-size: 16px;
     background-color: #4CAF50;
     color: white;
@@ -68,4 +74,27 @@ input {
 input:focus {
     border-color: #4CAF50; /* Цвет рамки при фокусе */
     outline: none; /* Убираем стандартное выделение */
+}
+
+.back2home {
+    margin: 20px auto;
+    width: 11.5%;
+    border: 2px solid #555;
+    background-color: #f3f1f1;
+    border-radius: 18px;
+    padding: 10px;
+}
+.back2home:hover {
+    background-color: #e0e0e0;
+}
+
+.abtus {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px auto;
+}
+
+.bold_fix {
+    font-weight: 600;
 }
