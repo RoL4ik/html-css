@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;900&display=swap');
 
+
+.block {
+    width: 30%;
+    height: 90px;
+    background: #bae797;
+    margin-top: auto;
+    border: 2px solid #a6e079;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+}
+
 h1 {
     color: black;
     font-size: 30px;
@@ -67,7 +79,7 @@ input {
     font-size: 16px;
     border: 2px solid #ccc;
     border-radius: 20px;
-    width: 70%;
+    width: 70%;;
     box-sizing: border-box; /* Чтобы padding не увеличивал общую ширину */
 }
 
@@ -97,4 +109,39 @@ input:focus {
 
 .bold_fix {
     font-weight: 600;
+}
+
+.about_text {
+    color: #333;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px auto;
+}
+
+.My_text {
+    position: absolute;
+    top: 200px;
+    left: 60px;
+    font-size: 60px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 2px #ccc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(182, 182, 93);
+}
+
+.My_text1 {
+    position: absolute;
+    top: 275px;
+    left: 60px;
+    font-size: 60px;
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 1px 1px 2px #ccc;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: rgb(199, 106, 122);
 }
