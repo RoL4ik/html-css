@@ -156,3 +156,37 @@ input:focus {
     text-transform: uppercase;
     color: rgb(199, 106, 122);
 }
+
+.turnbackbeta {
+    width: 125px;
+    height: 30px;
+    margin: auto;
+    padding: 10, 1;
+    border: solid;
+    border-color: gray;
+    border-radius: 10px;
+    background-color: #ffffff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 0.3s;
+}
+
+.turnbackbeta:hover {
+    background-color: rgb(228, 227, 227);
+    transform: translateY(-5px);
+    transition-duration: 0.3s;
+}
+
+.funtext {
+    transition-duration: 0.3s;
+    color: #141414dc;
+    animation: ease-out;
+}
+
+.funtext:hover {
+    transform:scale(30px);
+    transform: translateX(200px);
+    animation: ease-out;
+}
