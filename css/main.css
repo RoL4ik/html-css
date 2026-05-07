@@ -61,10 +61,12 @@ button {
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition-duration: 0.3s;
 }
 
 button:hover {
     background-color: #45a049;
+    transform: translateY(-5px);
 }
 
 select {
@@ -72,6 +74,13 @@ select {
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 20px;
+    transition-duration: 0.3s;
+}
+
+select:hover {
+    background-color: #eceaea;
+    transition-duration: 0.3s;
+    transform: translateY(-5px)
 }
 
 input {
@@ -80,12 +89,14 @@ input {
     border: 2px solid #ccc;
     border-radius: 20px;
     width: 70%;;
+    transition-duration: 0.3s;
     box-sizing: border-box; /* Чтобы padding не увеличивал общую ширину */
 }
 
 input:focus {
     border-color: #4CAF50; /* Цвет рамки при фокусе */
     outline: none; /* Убираем стандартное выделение */
+    transition-duration: 0.3s;
 }
 
 .back2home {
