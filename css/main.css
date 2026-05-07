@@ -1,5 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@400;500;600;900&display=swap');
 
+@keyframes blink {
+  0% {
+    text-shadow: 0 0 5px #fff; /* Маленьке світіння */
+  }
+  100% {
+    text-shadow: 0 0 20px #00ec00, 0 0 30px #00ec00; /* Потужне рожеве сяйво */
+  }
+}
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateY(0px); }}
 
 .block {
     width: 30%;
@@ -18,6 +31,9 @@ h1 {
     margin-bottom: 100px;
     text-align: center;
     font-weight: 600;
+    text-shadow: 2px 2px #555;
+    animation: blink 1.5s ease-in-out infinite alternate;
+    animation: float 3s ease-in-out infinite;
 }
 
 body {
@@ -62,6 +78,7 @@ button {
     border-radius: 10px;
     cursor: pointer;
     transition-duration: 0.3s;
+    animation: blink 1.5s ease-in-out infinite alternate;
 }
 
 button:hover {
@@ -141,6 +158,7 @@ input:focus {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: rgb(182, 182, 93);
+    animation: float 3s ease-in-out infinite;
 }
 
 .My_text1 {
@@ -155,6 +173,7 @@ input:focus {
     letter-spacing: 2px;
     text-transform: uppercase;
     color: rgb(199, 106, 122);
+    animation: float 3s ease-in-out infinite;
 }
 
 .turnbackbeta {
