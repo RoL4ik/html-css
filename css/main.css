@@ -33,7 +33,7 @@ h1 {
     font-weight: 600;
     text-shadow: 2px 2px #555;
     animation: blink 1.5s ease-in-out infinite alternate;
-    animation: float 3s ease-in-out infinite;
+    animation: floa1t 3s ease-in-out infinite;
 }
 
 body {
