@@ -51,8 +51,9 @@ body {
     line-height: 1.5;
 }
 
+
 .aboutlink:hover {
-    color: red;
+    color: rgb(49, 120, 191);
     text-decoration: underline;
 }
 
@@ -121,14 +122,14 @@ input:focus {
 
 .back2home {
     margin: 20px auto;
-    width: 11.5%;
+    width: 230px;
     border: 2px solid #555;
-    background-color: #f3f1f1;
+    background-color: #a6e079;
     border-radius: 18px;
     padding: 10px;
 }
 .back2home:hover {
-    background-color: #e0e0e0;
+    background-color: #bae797;
 }
 
 .abtus {
