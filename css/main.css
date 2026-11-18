@@ -57,20 +57,21 @@ body {
 }
 
 #saved_videos {
-    width: 80%;           /* Ширина блока  */
-    min-height: 300px;    /* Минимальная высот */
-    margin: 20px auto;       /* Отступы сверху и снизу */
-    border: 2px solid #555; /* Рамка  */
-    background-color: #f9f9f9; /* Легкий фон */
-    border-radius: 18px;   /* Закругление углов */
-    padding: 10px;           /* Внутренние отступы  */
-    text-align: center;          /* Выравнивание текста по центру */
+    width: 80%;
+    min-height: 300px;
+    margin: 20px auto;
+    border: 2px solid #555;
+    background-color: #f9f9f9;
+    border-radius: 18px;
+    padding: 10px;
+    text-align: center; 
     
 }
 
 button {
-    padding: 10px 40px;
+    padding: 20px 40px;
     margin: 5px 0;
+    margin-top: 10px;
     font-size: 16px;
     background-color: #4CAF50;
     color: white;
@@ -208,4 +209,8 @@ input:focus {
     transform:scale(30px);
     transform: translateX(200px);
     animation: ease-out;
+}
+
+.about img {
+    width: 300px;
 }
